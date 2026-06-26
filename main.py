@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 import os
 
 TOKEN = os.getenv("TOKEN")
-VOICE_CHANNEL_ID = 1515629459045093389
+VOICE_CHANNEL_ID = 1505704082684252221
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
